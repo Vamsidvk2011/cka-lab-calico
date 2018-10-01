@@ -8,3 +8,4 @@ deb http://apt.kubernetes.io/ kubernetes-xenial main
 EOF
 apt-get update
 apt-get install -y kubelet kubeadm kubectl
+apt-mark hold kubelet kubeadm kubectl
